@@ -3,4 +3,6 @@ pub fn main() {
     println!("{:?}", args);
     let num = args[1].parse::<i32>().unwrap();
     println!("{:?}", num);
+    let num2 = args[2].parse::<i32>().unwrap();
+    println!("{:?}", num2);
 }
